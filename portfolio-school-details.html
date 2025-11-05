@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Détails - eSchool</title>
+  <link href="assets/img/folder.png" rel="icon">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <h1 class="sitename">Allégresse Cakpo</h1>
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">A propos</a></li>
+          <li><a href="resume.html">Expériences</a></li>
+          <li><a href="portfolio.html" class="active">Projets</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Section Détails -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>eSchool</h2>
+        <p>Application Web</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": { "delay": 5000 },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                }
+              }
+              </script>
+
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/eschool/eschool-dashboard.png" alt="Dashboard eSchool">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/eschool/eschool-eleves.png" alt="Gestion des élèves eSchool">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/eschool/eschool-notes.png" alt="Gestion des notes eSchool">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Projet : eSchool (cas d'ecole Primaire)</h3>
+              <ul>
+                <li><strong>Catégorie :</strong> Application web</li>
+                <li><strong>Client :</strong> Projet personnel</li>
+                <li><strong>Technologies :</strong> Symfony · MySQL · Bootstrap · Twig</li>
+                <li><strong>Type de projet :</strong> Projet personnel</li>
+              </ul>
+            </div>
+
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2>Application de gestion scolaire complète</h2>
+              <p>
+                eSchool (cas d'ecole Primaire) est une solution web permettant de gérer efficacement les établissements
+                scolaires : élèves,
+                enseignants, cours et notes.
+                Elle offre une interface simple et intuitive pour centraliser toutes les informations académiques et
+                administratives.
+              </p>
+              <h4>Fonctionnalités principales</h4>
+              <ul>
+                <li>✅ Gestion des élèves, enseignants , cours et classes</li>
+                <li>✅ Enregistrement et consultation des notes</li>
+                <li>✅ Tableau de bord pour administrateurs et enseignants</li>
+                <li>✅ Génération de relevés de notes</li>
+                <li>✅ Gestion des scolarités</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer light-background">
+    <div class="container">
+      <div class="copyright text-center">
+        <p>© <strong>Allégresse Cakpo</strong> — Tous droits réservés</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
